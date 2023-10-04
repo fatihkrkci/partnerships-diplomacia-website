@@ -1,0 +1,18 @@
+section {
+	height: 5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: small;
+	color: white;
+}
+
+#footer {
+	background: linear-gradient(-35deg, rgba(41,55,240,1) 0%, rgba(159,26,226,1) 100%);
+    color: white;
+}
+
+h6 {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,17 @@
+section {
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: small;
+	color: white;
+}
+
+#faq {
+	/* background-image: url("../../../assets/img/churchill-black.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  */
+	background-color: #000000;
+    color: white;
+}

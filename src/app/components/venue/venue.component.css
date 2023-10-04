@@ -1,0 +1,69 @@
+/* Mobile */
+
+iframe {
+	height: auto;
+	width: fit-content;
+}
+
+.card {
+	height: auto;
+	width: fit-content;
+	margin-bottom: 5 !important;
+}
+
+section {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    section {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+/* Desktop */
+@media (min-width:900px) {
+
+	iframe {
+		height: 42vh;
+		width: 70vh;
+	}
+
+    section {
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+#venue {
+	background-image: url("../../../assets/img/venue-black.jpeg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+	position:relative;
+    background-attachment: fixed; 
+	color: white;
+    filter: grayscale(10);
+}
+
+.card {
+    font-size: small;
+    background-color: #ffffff;
+    border-radius: 0;
+    color: #000000;
+}

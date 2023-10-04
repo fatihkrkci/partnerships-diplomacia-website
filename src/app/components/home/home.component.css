@@ -1,0 +1,44 @@
+/* Mobile */
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    section {
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    section {
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+#home {
+	background-image: url("../../../assets/img/munBlack.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+	position:relative;
+    background-attachment: fixed; 
+	color: white;
+}
+
+#home h2{
+	font-family: Rometano;
+}

@@ -1,0 +1,21 @@
+
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+.nav-link {
+    color: rgb(247, 246, 246);
+}
+
+section {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	color: white;
+}
+
+h2 {
+	font-family: Garamond, sans-serif;
+}
