@@ -14,7 +14,7 @@ section {
 	object-fit: cover !important;
 	background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: auto; 
 	position:relative;
     background-attachment: fixed; 
 	color: white;
@@ -34,7 +34,7 @@ section {
 		object-fit: cover !important;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover; 
+		background-size: auto; 
 		position:relative;
 		background-attachment: fixed; 
 		color: white;
@@ -61,12 +61,10 @@ section {
 
 	#home {
 		background-image: url("../../../assets/img/munBlack.jpg") !important;
-		height: 100%;
-		width: auto;
 		object-fit: cover !important;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: cover; 
+		background-size: auto; 
 		position:relative;
 		background-attachment: fixed; 
 		color: white;
