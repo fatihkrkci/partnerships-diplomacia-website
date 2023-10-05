@@ -10,6 +10,9 @@ import { ScheduleComponent } from './components/schedule/schedule.component';
 import { QuoteComponent } from './components/quote/quote.component';
 import { VenueComponent } from './components/venue/venue.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TeamMembersComponent } from './components/team-members/team-members.component';
+import { CardComponent } from './components/team-members/card/card.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { FooterComponent } from './components/footer/footer.component';
     ScheduleComponent,
     QuoteComponent,
     VenueComponent,
-    FooterComponent
+    FooterComponent,
+    TeamMembersComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,

@@ -30,6 +30,11 @@ section {
 		align-items: center;
 		color: white;
 	}
+
+	iframe {
+		height: auto;
+		width: fit-content;
+	}
 }
 
 /* Desktop */
