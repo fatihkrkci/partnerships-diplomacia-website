@@ -25,6 +25,7 @@ section {
 
 	#venue {
 		background-image: url("../../../assets/img/venue-black_16x9.png") !important;
+		object-fit: cover !important;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover; 
@@ -54,6 +55,7 @@ section {
 
 	#venue {
 		background-image: url("../../../assets/img/venue-black.jpeg") !important;
+		object-fit: cover !important;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover; 
@@ -80,6 +82,7 @@ section {
 
 #venue {
 	background-image: url("../../../assets/img/venue-black_16x9.png") !important;
+	object-fit: cover !important;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover; 
