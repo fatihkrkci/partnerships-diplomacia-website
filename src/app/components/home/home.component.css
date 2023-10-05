@@ -7,8 +7,33 @@ section {
 	color: white;
 }
 
+#home {
+	background-image: url("../../../assets/img/munBlack_16x9.png") !important;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+	position:relative;
+    background-attachment: fixed; 
+	color: white;
+}
+
+#home h1{
+	font-family: Rometano;
+}
+
 /* Tablet */
 @media (min-width:600px) {
+
+	#home {
+		background-image: url("../../../assets/img/munBlack_16x9.png") !important;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+		position:relative;
+		background-attachment: fixed; 
+		color: white;
+	}
+
     section {
 		min-height: 100vh;
 		display: flex;
@@ -27,26 +52,21 @@ section {
 		align-items: center;
 		color: white;
 	}
-}
 
-#home {
-	background-image: url("../../../assets/img/munBlack.jpg");
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-	position:relative;
-    background-attachment: fixed; 
-	color: white;
-}
-
-#home h1{
-	font-family: Rometano;
+	#home {
+		background-image: url("../../../assets/img/munBlack.jpg") !important;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+		position:relative;
+		background-attachment: fixed; 
+		color: white;
+	}
 }
 
 .count-down-timer {
 	text-align: center;
 	background-color: rgba(49, 59, 63, 0.5);
-	z-index: 2;
   	backdrop-filter: blur(10px) saturate(125%);
   	-webkit-backdrop-filter: blur(10px) saturate(125%);
 	max-width: 400px;

@@ -22,6 +22,18 @@ section {
 
 /* Tablet */
 @media (min-width:600px) {
+
+	#venue {
+		background-image: url("../../../assets/img/venue-black_16x9.png") !important;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+		position:relative;
+		background-attachment: fixed; 
+		color: white;
+		filter: grayscale(10);
+	}
+
     section {
 		min-height: 100vh;
 		display: flex;
@@ -40,6 +52,17 @@ section {
 /* Desktop */
 @media (min-width:900px) {
 
+	#venue {
+		background-image: url("../../../assets/img/venue-black.jpeg") !important;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover; 
+		position:relative;
+		background-attachment: fixed; 
+		color: white;
+		filter: grayscale(10);
+	}
+
 	iframe {
 		height: 42vh;
 		width: 70vh;
@@ -56,14 +79,14 @@ section {
 }
 
 #venue {
-	background-image: url("../../../assets/img/venue-black.jpeg");
+	background-image: url("../../../assets/img/venue-black_16x9.png") !important;
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
+	background-repeat: no-repeat;
+	background-size: cover; 
 	position:relative;
-    background-attachment: fixed; 
+	background-attachment: fixed; 
 	color: white;
-    filter: grayscale(10);
+	filter: grayscale(10);
 }
 
 .card {
