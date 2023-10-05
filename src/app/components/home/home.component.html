@@ -1,6 +1,28 @@
 <section id="home">
-    <h2>Unleash the inner diplomat</h2>
+    <div class="row text-center">
+        <div class="col-12">
+            <h1 style="font-weight: 900;">Unleash the inner diplomat</h1>
+        </div>
+        <div class="count-down-timer">
+            <p>{{ currentTime }}</p>
+            <div class="wrapper">
+                <div class="description">
+                    <p>Days</p>
+                    <p>Hours</p>
+                    <p>Minutes</p>
+                    <p>Seconds</p>
+                </div>
+                <div class="times">
+                    <p #days></p>
+                    <p #hours></p>
+                    <p #minutes></p>
+                    <p #seconds></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 <app-about-us></app-about-us>
 <app-schedule></app-schedule>
 <app-quote></app-quote>

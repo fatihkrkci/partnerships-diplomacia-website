@@ -13,6 +13,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { TeamMembersComponent } from './components/team-members/team-members.component';
 import { CardComponent } from './components/team-members/card/card.component';
 import { RouterModule } from '@angular/router';
+import { ApplyComponent } from './components/apply/apply.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { RouterModule } from '@angular/router';
     VenueComponent,
     FooterComponent,
     TeamMembersComponent,
-    CardComponent
+    CardComponent,
+    ApplyComponent
   ],
   imports: [
     BrowserModule,
