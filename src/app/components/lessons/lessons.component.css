@@ -1,0 +1,49 @@
+/* Mobile */
+section {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    section {
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    section {
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+#lessons {
+	background-image: url("../../../assets/img/lessons.jpg");
+	background-size: cover;
+	color: white;
+    filter: grayscale(0.85);
+}
+
+.card {
+    background-color: rgba(49, 59, 63, 0.5);
+  	backdrop-filter: blur(10px) saturate(125%);
+  	-webkit-backdrop-filter: blur(10px) saturate(125%);
+    color: #ffffff;
+    border-width: 5px;
+    border-radius: 10px;
+    border-color: #ffffff;
+}
