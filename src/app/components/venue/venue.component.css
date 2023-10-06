@@ -81,13 +81,8 @@ section {
 }
 
 #venue {
-	background-image: url("../../../assets/img/venue-black_16x9.png") !important;
-	object-fit: cover !important;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover; 
-	position:relative;
-	background-attachment: fixed; 
+	background-image: url("../../../assets/img/venue-black_16x9.png");
+	background-size: cover;
 	color: white;
 	filter: grayscale(10);
 }

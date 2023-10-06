@@ -8,11 +8,8 @@ section {
 }
 
 #home {
-	background-image: url('../../../assets/img/munBlack.jpg');
-  	background-size: cover; /* Ekranı kaplayacak şekilde ayarlar */
-  	background-repeat: no-repeat; /* Tekrarlamayı kapatır */
-  	background-attachment: fixed; /* Kaydırma durumunda sabit kalmasını sağlar */
-  	background-position: center; /* Görüntüyü ortalar */
+	background-image: url("../../../assets/img/munBlack.jpg");
+	background-size: cover;
 }
 
 #home h1{
@@ -31,7 +28,7 @@ section {
 }
 
 /* Desktop */
-@media (min-width:900px) {
+@media (min-width:900px) {	
     section {
 		height: 100vh;
 		display: flex;
