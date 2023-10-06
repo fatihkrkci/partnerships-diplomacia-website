@@ -9,12 +9,10 @@ section {
 
 #home {
 	background-image: url("../../../assets/img/munBlack_16x9.png") !important;
-	height: 100%;
-	width: auto;
 	object-fit: cover !important;
 	background-position: center;
     background-repeat: no-repeat;
-    background-size: auto; 
+    background-size: cover; 
 	position:relative;
     background-attachment: fixed; 
 	color: white;
@@ -29,12 +27,10 @@ section {
 
 	#home {
 		background-image: url("../../../assets/img/munBlack_16x9.png") !important;
-		height: 100%;
-		width: auto;
 		object-fit: cover !important;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: auto; 
+		background-size: cover; 
 		position:relative;
 		background-attachment: fixed; 
 		color: white;
@@ -62,8 +58,6 @@ section {
 	#home {
 		background-image: url("../../../assets/img/munBlack.jpg") !important;
 		object-fit: cover !important;
-		height: 100%;
-    	width: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover; 
