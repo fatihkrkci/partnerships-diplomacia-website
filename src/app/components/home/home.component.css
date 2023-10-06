@@ -62,11 +62,12 @@ section {
 	#home {
 		background-image: url("../../../assets/img/munBlack.jpg") !important;
 		object-fit: cover !important;
+		height: 100%;
+    	width: 100%;
 		background-position: center;
 		background-repeat: no-repeat;
-		background-size: auto; 
-		position:relative;
-		background-attachment: fixed; 
+		background-size: cover; 
+		position: relative;
 		color: white;
 	}
 }

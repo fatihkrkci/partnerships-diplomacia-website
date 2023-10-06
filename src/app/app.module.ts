@@ -12,8 +12,8 @@ import { VenueComponent } from './components/venue/venue.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TeamMembersComponent } from './components/team-members/team-members.component';
 import { CardComponent } from './components/team-members/card/card.component';
-import { RouterModule } from '@angular/router';
 import { ApplyComponent } from './components/apply/apply.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +27,8 @@ import { ApplyComponent } from './components/apply/apply.component';
     FooterComponent,
     TeamMembersComponent,
     CardComponent,
-    ApplyComponent
+    ApplyComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

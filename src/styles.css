@@ -1,3 +1,5 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 body{
     background-color: #000000;
 }
@@ -5,6 +7,20 @@ body{
 @font-face {
     font-family: 'Rometano';
     src: url('./assets/fonts/Rometano.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'F37JaggerBold';
+    src: url('./assets/fonts/F37JaggerBold.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'F37JaggerRegular';
+    src: url('./assets/fonts/F37JaggerRegular.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
