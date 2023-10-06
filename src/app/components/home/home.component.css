@@ -8,14 +8,11 @@ section {
 }
 
 #home {
-	background-image: url("../../../assets/img/munBlack_16x9.png") !important;
-	object-fit: cover !important;
-	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-	position:relative;
-    background-attachment: fixed; 
-	color: white;
+	background-image: url('../../../assets/img/munBlack.jpg');
+  	background-size: cover; /* Ekranı kaplayacak şekilde ayarlar */
+  	background-repeat: no-repeat; /* Tekrarlamayı kapatır */
+  	background-attachment: fixed; /* Kaydırma durumunda sabit kalmasını sağlar */
+  	background-position: center; /* Görüntüyü ortalar */
 }
 
 #home h1{
@@ -24,18 +21,6 @@ section {
 
 /* Tablet */
 @media (min-width:600px) {
-
-	#home {
-		background-image: url("../../../assets/img/munBlack_16x9.png") !important;
-		object-fit: cover !important;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover; 
-		position:relative;
-		background-attachment: fixed; 
-		color: white;
-	}
-
     section {
 		min-height: 100vh;
 		display: flex;
@@ -52,17 +37,6 @@ section {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		color: white;
-	}
-
-	#home {
-		background-image: url("../../../assets/img/munBlack.jpg") !important;
-		object-fit: cover !important;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover; 
-		position: relative;
-		background-attachment: fixed; 
 		color: white;
 	}
 }
