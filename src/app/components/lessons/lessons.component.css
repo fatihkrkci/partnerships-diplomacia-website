@@ -39,7 +39,7 @@ section {
 }
 
 .card {
-    background-color: rgba(49, 59, 63, 0.5);
+    background-color: rgba(49, 59, 63, 0.75);
   	backdrop-filter: blur(10px) saturate(125%);
   	-webkit-backdrop-filter: blur(10px) saturate(125%);
     color: #ffffff;

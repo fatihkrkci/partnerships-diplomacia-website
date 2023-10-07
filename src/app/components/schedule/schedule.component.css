@@ -30,15 +30,15 @@ section {
 }
 
 #schedule {
-	background-image: url("../../../assets/img/schedule-black.jpg");
-	background-size: cover;
+	background-color: #f9fcff;
+	background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
 	color: white;
 }
 
 .card {
     background-color: transparent;
-    color: #ffffff;
+    color: #000000;
     border-width: 5px;
     border-radius: 10px;
-    border-color: #ffffff;
+    border-color: #000000;
 }

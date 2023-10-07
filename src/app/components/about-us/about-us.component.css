@@ -7,6 +7,13 @@ section {
 	color: white;
 }
 
+img {
+    width: 25vh !important;
+    height: 25vh !important;
+    border-radius: 50% !important;
+    border: 3px solid #ffffff;
+}
+
 .pd {
     padding: 14px;
     font-size: x-small;
@@ -21,6 +28,13 @@ section {
 		align-items: center;
 		color: white;
 	}
+
+    img {
+        width: 25vh !important;
+        height: 25vh !important;
+        border-radius: 50% !important;
+        border: 3px solid #ffffff;
+    }
 
     .pd {
         padding: 20px;
@@ -38,6 +52,14 @@ section {
 		color: white;
 	}
 
+    img {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 0 !important;
+        border: 0px solid #ffffff !important;
+        margin-top: 0 !important;
+    }
+
     .pd {
         padding: 24px;
         font-size: medium;
@@ -50,10 +72,6 @@ section {
     filter: grayscale(50%);
     height: 100%;
     width: 100%;
-}
-
-img {
-    object-fit: cover !important;
 }
 
 .right-side {
