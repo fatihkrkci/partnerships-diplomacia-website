@@ -5,6 +5,8 @@ section {
 	justify-content: center;
 	align-items: center;
 	color: white;
+    background-color: #383e42 !important;
+	background-image: linear-gradient(-225deg, #383e42 0%, #000000 75%) !important;
 }
 
 img {
@@ -81,7 +83,6 @@ img {
 .right-side {
     margin: 0;
     padding: 0;
-    background-color: black;
     height: 100vh;
     display: flex;
 	justify-content: center;
