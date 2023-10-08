@@ -12,12 +12,13 @@ section {
 .syed {
     margin: auto !important;
     margin-top: 4vh !important;
+    margin-bottom: 4vh !important;
     padding: auto !important;
     filter: grayscale(50%) !important;
-    background-image: url("../../../assets/img/syed-muhammed-1080x1080.jpg");
+    background-image: url("../../../assets/img/syed-muhammed-1080x1080.jpg") !important;
     width: 25vh !important;
     height: 25vh !important;
-    background-size: cover;
+    background-size: cover !important;
     border-radius: 50% !important;
     border: 3px solid #ffffff;
     background-position: center !important;
@@ -39,15 +40,17 @@ section {
 	}
 
     .syed {
-        margin: 0;
-        padding: 0;
-        filter: grayscale(50%);
-        background-image: url("../../../assets/img/syed-muhammed-1080x1080.jpg");
+        margin: 0 !important;
+        margin-top: 4vh !important;
+        margin-bottom: 4vh !important;
+        padding: 0 !important;
+        filter: grayscale(50%) !important;
+        background-image: url("../../../assets/img/syed-muhammed-1080x1080.jpg") !important;
         width: 25vh !important;
         height: 25vh !important;
-        background-size: cover;
+        background-size: cover !important;
         border-radius: 50% !important;
-        border: 3px solid #ffffff;
+        border: 3px solid #ffffff !important;
         background-position: center !important;
     }
 
