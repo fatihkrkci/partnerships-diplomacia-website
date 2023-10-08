@@ -9,13 +9,18 @@ section {
 	background-image: linear-gradient(-225deg, #383e42 0%, #000000 75%) !important;
 }
 
-img {
+.syed {
+    margin: auto !important;
+    margin-top: 4vh !important;
+    padding: auto !important;
+    filter: grayscale(50%) !important;
+    background-image: url("../../../assets/img/syed-muhammed-1080x1080.jpg");
     width: 25vh !important;
     height: 25vh !important;
+    background-size: cover;
     border-radius: 50% !important;
     border: 3px solid #ffffff;
     background-position: center !important;
-    filter: grayscale();
 }
 
 .pd {
@@ -33,9 +38,14 @@ img {
 		color: white;
 	}
 
-    img {
+    .syed {
+        margin: 0;
+        padding: 0;
+        filter: grayscale(50%);
+        background-image: url("../../../assets/img/syed-muhammed-1080x1080.jpg");
         width: 25vh !important;
         height: 25vh !important;
+        background-size: cover;
         border-radius: 50% !important;
         border: 3px solid #ffffff;
         background-position: center !important;
@@ -57,27 +67,22 @@ img {
 		color: white;
 	}
 
-    img {
-        width: 100% !important;
+    .syed {
+        margin: 0 !important;
+        padding: 0 !important;
+        filter: grayscale(50%) !important;
         height: 100% !important;
+        width: 100% !important;
+        background-image: url("../../../assets/img/syed-muhammed.jpg") !important;
+        background-size: cover !important;
         border-radius: 0 !important;
         border: 0px solid #ffffff !important;
-        margin-top: 0 !important;
-        margin-bottom: 0 !important;
     }
 
     .pd {
         padding: 24px;
         font-size: medium;
     }
-}
-
-.left-side {
-    margin: 0;
-    padding: 0;
-    filter: grayscale(50%);
-    height: 100%;
-    width: 100%;
 }
 
 .right-side {
