@@ -27,18 +27,22 @@ section {
 		align-items: center;
 		color: white;
 	}
+
+	.card {
+		margin-right: 3vh !important;
+	}
 }
 
 #schedule {
-	background-color: #f9fcff;
-	background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+	background-color: #383e42;
+	background-image: linear-gradient(-225deg, #383e42 0%, #000000 75%);
 	color: white;
 }
 
 .card {
     background-color: transparent;
-    color: #000000;
+    color: #ffffff;
     border-width: 5px;
     border-radius: 10px;
-    border-color: #000000;
+    border-color: #ffffff;
 }

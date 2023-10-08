@@ -1,5 +1,6 @@
 #application {
   background-color: black;
+  min-height: 100vh;
   padding: 10vh 0 5vh 0;
   display: flex;
   align-items: center;
@@ -70,11 +71,11 @@ h1 {
 
       .card-img-overlay {
         transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-        background: rgb(255, 186, 33);
+        background: rgb(92, 8, 8);
         background: linear-gradient(
           0deg,
-          rgba(255, 186, 33, 0.5) 0%,
-          rgba(255, 186, 33, 1) 100%
+          rgba(56, 62, 66, 0.5) 0%,
+          rgba(92, 8, 8, 1) 100%
         );
       }
     }
@@ -94,6 +95,7 @@ h1 {
 
   .card-title {
     font-weight: 800;
+    color: #fff;
   }
   .card-meta {
     color: rgba(0, 0, 0, 0.3);
@@ -114,11 +116,11 @@ h1 {
   }
   .card-img-overlay {
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-    background: rgb(255, 186, 33);
+    background: rgb(92, 8, 8);
     background: linear-gradient(
       0deg,
-      rgba(255, 186, 33, 0.3785889355742297) 0%,
-      rgba(255, 186, 33, 1) 100%
+      rgba(56, 62, 66, 0.3785889355742297) 0%,
+      rgba(92, 8, 8, 1) 100%
     );
   }
 }

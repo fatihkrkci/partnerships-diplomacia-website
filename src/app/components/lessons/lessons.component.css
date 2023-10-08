@@ -32,10 +32,9 @@ section {
 }
 
 #lessons {
-	background-image: url("../../../assets/img/lessons.jpg");
-	background-size: cover;
+	background-color: #383e42;
+	background-image: linear-gradient(-225deg, #383e42 0%, #000000 75%);
 	color: white;
-    filter: grayscale(0.85);
 }
 
 .card {
