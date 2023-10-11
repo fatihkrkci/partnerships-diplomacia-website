@@ -10,6 +10,11 @@
   padding: 0.5rem;
 }
 
+.txt {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media (max-width: 900px) {
   #application div.row div {
     padding: 1rem;
