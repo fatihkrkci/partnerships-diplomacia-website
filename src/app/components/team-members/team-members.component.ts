@@ -13,4 +13,5 @@ export class TeamMembersComponent {
   boraAkarImage:string = '../../../assets/img/team-members/bora-akar.jpeg';
   batuhanAkyaziImage:string = '../../../assets/img/team-members/batuhan-akyazı.jpg';
   onurCigdemImage:string = '../../../assets/img/team-members/onur-cigdem.jpg';
+  bahaOzyurtImage:string = '../../../assets/img/team-members/baha-ozyurt.jpeg';
 }
