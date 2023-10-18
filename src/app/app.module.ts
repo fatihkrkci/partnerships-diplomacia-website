@@ -15,6 +15,7 @@ import { CardComponent } from './components/team-members/card/card.component';
 import { ApplyComponent } from './components/apply/apply.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { LessonsComponent } from './components/lessons/lessons.component';
+import { MockDebateComponent } from './components/mock-debate/mock-debate.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { LessonsComponent } from './components/lessons/lessons.component';
     CardComponent,
     ApplyComponent,
     ContactUsComponent,
-    LessonsComponent
+    LessonsComponent,
+    MockDebateComponent
   ],
   imports: [
     BrowserModule,

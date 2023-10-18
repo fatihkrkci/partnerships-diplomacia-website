@@ -1,0 +1,40 @@
+/* Mobile */
+section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    section {
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    section {
+		min-height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: white;
+	}
+}
+
+#mock-debate {
+	background-color: #383e42;
+	background-image: linear-gradient(-225deg, #383e42 0%, #000000 75%);
+	color: white;
+}
+
+img {
+
+}
