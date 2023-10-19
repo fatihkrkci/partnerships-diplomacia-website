@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class MockDebateComponent {
   image:string = '../../../assets/img/mock-debate.jpeg';
+  pdfSrc = "../../../assets/pdf/study-guide.pdf";
 }

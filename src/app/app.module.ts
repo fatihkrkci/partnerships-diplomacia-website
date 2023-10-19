@@ -16,6 +16,7 @@ import { ApplyComponent } from './components/apply/apply.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { LessonsComponent } from './components/lessons/lessons.component';
 import { MockDebateComponent } from './components/mock-debate/mock-debate.component';
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { MockDebateComponent } from './components/mock-debate/mock-debate.compon
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    PdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
